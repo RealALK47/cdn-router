@@ -20,3 +20,12 @@ nano datacenters.json
 >   "cn": "<china server ip>"
 > }
 > ```
+
+The database structure should be :
+```
+router.js
+/databases
+  |- locations.dat
+  |- coordinates.json
+  |- datacenters.json
+```
