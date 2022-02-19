@@ -7,7 +7,7 @@ Create the locations database:
 sqlite3 locations.dat < locations.sql
 ```
 
-Configure your datacenters:
+Configure your datacenters by creating the file `datacenters.json`:
 ```
 nano datacenters.json
 ```
