@@ -1,7 +1,22 @@
 # CDN Router
 A CDN routing system based on Geo-IP by DNS
 
-# Setup
+## Setup
+Create the locations database:
 ```
 sqlite3 locations.dat < locations.sql
+```
+
+Configure your datacenters:
+```
+nano datacenters.json
+```
+
+Datacenters.json example:
+```
+{
+  "us": "<us server ip>",
+  "fr": "<france server ip>",
+  "cn": "<china server ip>"
+}
 ```
