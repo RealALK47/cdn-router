@@ -4,11 +4,11 @@ const dns2 = require('dns2')
 
 const { Packet } = dns2
 
-let coordinates = JSON.parse(fs.readFileSync('./coordinates.json'))
-let datacenters = JSON.parse(fs.readFileSync('./datacenters.json'))
+let coordinates = JSON.parse(fs.readFileSync('./databases/coordinates.json'))
+let datacenters = JSON.parse(fs.readFileSync('./databases/datacenters.json'))
 
 class Router {
-    #database = new sqlite.Database('locations.dat', error => {
+    #database = new sqlite.Database('./databases/locations.dat', error => {
         if (error) {
             throw error
         }
