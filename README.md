@@ -14,9 +14,9 @@ nano datacenters.json
 
 > Datacenters.json example:
 > ```
-{
-  "us": "<us server ip>",
-  "fr": "<france server ip>",
-  "cn": "<china server ip>"
-}
-```
+> {
+>   "us": "<us server ip>",
+>   "fr": "<france server ip>",
+>   "cn": "<china server ip>"
+> }
+> ```
